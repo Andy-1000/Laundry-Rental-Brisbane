@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
-import logoPath from "@assets/Laundry_Rental_Side_Logo_1771296125417.png";
+import logoPath from "@assets/Laundry Rental Side Logo Best.png";
 
 const navLinks = [
   { href: "/pricing", label: "Pricing" },
