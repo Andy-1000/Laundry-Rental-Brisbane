@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import logoPath from "@assets/Laundry Rental Side Logo Best.png";
+import footerLogoPath from "@assets/Laundry_Rental_Side_Logo_White_1771299864253.png";
 
 const navLinks = [
   { href: "/pricing", label: "Pricing" },
@@ -34,12 +35,12 @@ function Navbar() {
       }`}
       data-testid="navbar"
     >
-      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-44">
+      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-20">
         <Link href="/" className="shrink-0">
           <img
             src={logoPath}
             alt="Laundry Rental Brisbane"
-            className="h-40 w-auto"
+            className="h-20 w-auto"
             data-testid="img-logo"
           />
         </Link>
@@ -105,9 +106,9 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <img
-              src={logoPath}
+              src={footerLogoPath}
               alt="Laundry Rental Brisbane"
-              className="h-32 w-auto mb-4 brightness-200"
+              className="h-24 w-auto mb-4"
             />
             <p className="text-sm">
               Affordable washing machine and dryer rental for Brisbane residents. Fast delivery, no upfront cost, repairs included.
