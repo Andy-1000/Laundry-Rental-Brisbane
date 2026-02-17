@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import logoPath from "@assets/Laundry Rental Side Logo Best.png";
-import footerLogoPath from "@assets/Laundry_Rental_Side_Logo_White_1771299864253.png";
+import footerLogoPath from "@assets/Laundry_Rental_Side_Logo_White_1771300474588.png";
 
 const navLinks = [
   { href: "/pricing", label: "Pricing" },
