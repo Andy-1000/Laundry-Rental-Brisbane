@@ -34,12 +34,12 @@ function Navbar() {
       }`}
       data-testid="navbar"
     >
-      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-20">
+      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-44">
         <Link href="/" className="shrink-0">
           <img
             src={logoPath}
             alt="Laundry Rental Brisbane"
-            className="h-16 w-auto"
+            className="h-40 w-auto"
             data-testid="img-logo"
           />
         </Link>
@@ -107,7 +107,7 @@ function Footer() {
             <img
               src={logoPath}
               alt="Laundry Rental Brisbane"
-              className="h-14 w-auto mb-4 brightness-200"
+              className="h-32 w-auto mb-4 brightness-200"
             />
             <p className="text-sm">
               Affordable washing machine and dryer rental for Brisbane residents. Fast delivery, no upfront cost, repairs included.
