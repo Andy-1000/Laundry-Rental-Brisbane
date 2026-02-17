@@ -35,12 +35,12 @@ function Navbar() {
       }`}
       data-testid="navbar"
     >
-      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-20">
+      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-24">
         <Link href="/" className="shrink-0">
           <img
             src={logoPath}
             alt="Laundry Rental Brisbane"
-            className="h-20 w-auto p-2"
+            className="h-24 w-auto p-2"
             data-testid="img-logo"
           />
         </Link>
