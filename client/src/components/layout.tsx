@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import logoPath from "@assets/Laundry_Rental_Side_Logo_1771296125417.png";
 
 const navLinks = [
-  { href: "/", label: "Home" },
   { href: "/pricing", label: "Pricing" },
   { href: "/how-it-works", label: "How It Works" },
   { href: "/faq", label: "FAQ" },
@@ -35,12 +34,12 @@ function Navbar() {
       }`}
       data-testid="navbar"
     >
-      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-16">
+      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-20">
         <Link href="/" className="shrink-0">
           <img
             src={logoPath}
             alt="Laundry Rental Brisbane"
-            className="h-10 w-auto"
+            className="h-16 w-auto"
             data-testid="img-logo"
           />
         </Link>
@@ -108,7 +107,7 @@ function Footer() {
             <img
               src={logoPath}
               alt="Laundry Rental Brisbane"
-              className="h-8 w-auto mb-4 brightness-200"
+              className="h-14 w-auto mb-4 brightness-200"
             />
             <p className="text-sm">
               Affordable washing machine and dryer rental for Brisbane residents. Fast delivery, no upfront cost, repairs included.
