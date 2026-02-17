@@ -27,7 +27,6 @@ import {
 import { Mail, Phone, MapPin, CheckCircle, Loader2 } from "lucide-react";
 import { useState, useEffect } from "react";
 import SEO from "@/components/seo";
-import logoPath from "@assets/Laundry Rental Side Logo Best.png";
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -115,7 +114,6 @@ export default function ContactPage() {
             canonical="https://laundryrentalbrisbane.com/contact"
           />
           <div className="text-center mb-12">
-            <img src={logoPath} alt="Laundry Rental Brisbane" className="h-28 w-auto mx-auto mb-6" data-testid="img-contact-logo" />
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground" data-testid="text-contact-headline">
               Get Started Today
             </h1>

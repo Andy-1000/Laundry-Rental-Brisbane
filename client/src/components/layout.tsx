@@ -40,7 +40,7 @@ function Navbar() {
           <img
             src={logoPath}
             alt="Laundry Rental Brisbane"
-            className="h-20 w-auto p-2"
+            className="h-20 w-auto"
             data-testid="img-logo"
           />
         </Link>
