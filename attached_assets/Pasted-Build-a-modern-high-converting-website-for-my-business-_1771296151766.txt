@@ -1,0 +1,336 @@
+Build a modern, high-converting website for my business:
+
+Business Name: Laundry Rental Brisbane  
+Domain: laundryrentalbrisbane.com  
+Location: Brisbane, Australia  
+Email: support@laundryrentalbrisbane.com
+Logo attached.
+
+The styling of the website should match the logo, with accent colours #ef24a0, #0abcdf and #e6f662
+
+Business Model:  
+Weekly rental subscription for appliances.
+
+Pricing:
+- $20/week – Washing Machine + Dryer bundle (highlight as “Most Popular”)
+    
+- $15/week – Washing Machine only
+    
+- $10/week – Dryer only
+    
+
+Positioning:  
+Affordable, simple, fast delivery, no large upfront cost, repairs/replacement included. Target renters, students, Defence Housing tenants, and property managers in Brisbane.
+
+Primary Goal:  
+Maximise form submittals
+
+Secondary Goal:  
+Rank locally for “washing machine rental Brisbane” and related terms.
+
+Priorities:
+- Mobile-first
+- SEO optimized
+- Accessible
+
+Site Structure:  
+Pages:
+
+- Home
+    
+- Pricing
+    
+- How It Works
+    
+- FAQ
+    
+- Contact
+    
+- Terms & Conditions (don't show in nav bar)
+    
+
+Homepage Layout:
+
+1. Sticky Navbar (logo left, CTA button right: “Get Started”)
+    
+2. Hero Section  
+    Headline: “Washing Machine & Dryer Rental in Brisbane”  
+    Subheading: “From just $10 per week. Fast delivery. No upfront cost.”  
+    Primary CTA: “Start Rental”  
+    Secondary CTA: “View Pricing”
+    
+3. Pricing Preview Section (3 cards)
+    
+    - Bundle ($20/week) marked “Most Popular”
+        
+    - Washer ($15/week)
+        
+    - Dryer ($10/week)  
+        Include Stripe checkout button on each card.
+        
+1. Value Proposition Section (3 columns)
+    - Fast Brisbane Delivery
+    - Repairs & Replacement Included
+    - No Lock-in Contracts (if applicable; if not, say “Flexible Rental Options”)
+        
+2. How It Works (3 steps)
+    
+    1. Choose Your Plan
+        
+    2. We Deliver & Install
+        
+    3. Enjoy Hassle-Free Laundry
+        
+3. Trust Section
+    
+    - “Local Brisbane Business”
+        
+    - “Servicing Units, Homes & Defence Housing”
+        
+    - Simple, trustworthy copy (no hype)
+        
+4. FAQ Preview (top 4 questions)
+    
+5. Strong Closing CTA Section  
+    “Get Your Machine Delivered This Week”  
+    Button: “Start Rental”
+    
+
+Pricing Page:
+- Full comparison table
+- Emphasise bundle value
+- Show cost comparison vs buying outright (optional simple example)
+- For each plan link to contact page
+
+Contact Page:
+- Form fields:  
+    Name  (required)
+    Email  (required)
+    Phone 
+    Postcode (required) 
+    Delivery Address  
+    Product (dropdown with washing machine, dryer or washing machine & dryer bundle)
+    Message
+    
+- Route all form submissions to support@laundryrentalbrisbane.com
+    
+
+Content for Terms & Conditions Page:
+# TERMS & CONDITIONS
+
+**Laundry Rental Brisbane**  
+Effective Date: [Insert Date]
+
+These Terms & Conditions (“Agreement”) govern the rental of appliances by Laundry Rental Brisbane (“we”, “us”, “our”) to the customer (“you”, “your”).
+
+By placing an order, subscribing, or accepting delivery of equipment, you agree to be bound by this Agreement.
+
+---
+
+## 1. Equipment & Ownership
+
+1.1 We rent washing machines and dryers to customers in Brisbane, Queensland.  
+1.2 All equipment remains our property at all times.  
+1.3 You acquire a right to use the equipment only during the rental period.
+
+---
+
+## 2. Rental Fees & Payment
+
+2.1 Rental fees are charged weekly in advance via Stripe subscription.  
+2.2 You authorise recurring debits from your nominated payment method.  
+2.3 If payment fails, we may:
+
+- Retry the transaction;
+    
+- Suspend service;
+    
+- Charge reasonable administrative or recovery costs;
+    
+- Recover the equipment.
+    
+
+2.4 We may vary fees on 14 days’ written notice for ongoing rentals.
+
+---
+
+## 3. Minimum Term & Termination
+
+3.1 Minimum rental period: [Insert if applicable, otherwise state “No minimum term”].  
+3.2 After any minimum term, rental continues week-to-week.  
+3.3 You must provide at least 7 days’ notice to cancel.  
+3.4 Equipment must be available for collection in safe and accessible condition.  
+3.5 We may terminate immediately for serious breach, non-payment, or misuse.
+
+---
+
+## 4. Delivery & Installation
+
+4.1 We will deliver and connect the appliance to existing plumbing and electrical points where reasonably practicable.  
+4.2 You warrant that:
+
+- Plumbing connections are compliant and in good working order;
+    
+- Drainage is functional and not blocked;
+    
+- Electrical outlets are safe and compliant;
+    
+- The installation area is suitable and accessible.
+    
+
+4.3 We are not responsible for:
+
+- Pre-existing plumbing defects;
+    
+- Structural issues;
+    
+- Electrical faults;
+    
+- Inadequate water pressure;
+    
+- Blocked drains;
+    
+- Non-compliant fittings.
+    
+
+---
+
+## 5. Limitation of Liability (Important)
+
+5.1 Nothing in this Agreement excludes, restricts, or modifies rights under the Australian Consumer Law (“ACL”).
+
+5.2 Subject to clause 5.1, and to the maximum extent permitted by law, we are not liable for any:
+
+- Flooding or water damage
+    
+- Mould or moisture damage
+    
+- Electrical damage
+    
+- Property damage
+    
+- Landlord claims
+    
+- Loss of rent
+    
+- Consequential or indirect loss
+    
+
+arising from:
+
+- Existing plumbing or drainage faults
+    
+- Improper or deteriorated fittings
+    
+- Movement of equipment after installation
+    
+- Customer misuse
+    
+- Failure to follow instructions
+    
+- Third-party interference
+    
+
+5.3 Where liability cannot be excluded, our liability is limited (at our option) to:
+
+- Repair or replacement of the equipment; or
+    
+- Refund of rental fees paid for the relevant period.
+    
+
+5.4 You acknowledge that washing machines operate using pressurised water and improper plumbing may result in leakage or overflow.
+
+---
+
+## 6. Customer Obligations
+
+You must:
+
+- Use equipment for normal domestic purposes only
+    
+- Not overload machines
+    
+- Use appropriate detergent
+    
+- Not tamper with internal components
+    
+- Not relocate equipment without written approval
+    
+- Notify us immediately of faults
+    
+- Maintain clear drainage
+    
+
+Failure to comply may result in repair charges.
+
+---
+
+## 7. Repairs & Maintenance
+
+7.1 We will repair or replace equipment that becomes faulty due to fair wear and tear.  
+7.2 We are not responsible for faults caused by misuse, negligence, foreign objects, pests, corrosion, or unauthorised repairs.  
+7.3 If damage is caused by misuse, you must pay reasonable repair or replacement costs.
+
+---
+
+## 8. Risk & Insurance
+
+8.1 Risk in the equipment passes to you upon delivery.  
+8.2 You are responsible for theft, loss, or damage (other than fair wear and tear).  
+8.3 You should maintain appropriate contents insurance.
+
+---
+
+## 9. Access & Recovery
+
+9.1 You must provide reasonable access for maintenance, inspection, or collection.  
+9.2 If you fail to return equipment, we may enter the premises as permitted by law to recover our property.  
+9.3 You remain liable for outstanding amounts and recovery costs.
+
+---
+
+## 10. Indemnity
+
+You indemnify us against claims from landlords, property managers, insurers, or third parties arising from:
+
+- Breach of this Agreement
+    
+- Misuse of equipment
+    
+- Plumbing or drainage defects at your premises
+    
+- Your negligence
+    
+
+This indemnity does not apply to the extent caused by our negligence or breach of law.
+
+---
+
+## 11. Privacy
+
+We collect personal information to provide rental services and process payments. We handle personal data in accordance with the Privacy Act 1988 (Cth). By renting from us, you consent to this collection and use.
+
+---
+
+## 12. Electronic Transactions
+
+You consent to entering this Agreement electronically under the Electronic Transactions (Queensland) Act 2001.
+
+---
+
+## 13. Force Majeure
+
+We are not liable for delay or failure caused by events beyond our reasonable control.
+
+---
+
+## 14. Governing Law
+
+This Agreement is governed by the laws of Queensland, Australia. Disputes are subject to Queensland courts.
+
+SEO Requirements:
+- Unique title and meta description per page
+- Structured data (LocalBusiness schema for Brisbane)
+- Optimized headings (H1 only once per page)
+- Clean URLs
+- OpenGraph tags 
