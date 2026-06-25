@@ -3,7 +3,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import { useLocation, useSearch } from "wouter";
 import { insertContactSchema, type InsertContact } from "@shared/schema";
-import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -62,10 +61,31 @@ export default function ContactPage() {
     }
   }, [searchString]);
 
+  // The site is hosted statically (GitHub Pages) with no backend, so the
+  // enquiry form posts to a third-party form service configured at build time
+  // via VITE_FORM_ENDPOINT (e.g. a Formspree/Getform/Basin endpoint).
+  const formEndpoint = import.meta.env.VITE_FORM_ENDPOINT as string | undefined;
+
   const mutation = useMutation({
     mutationFn: async (data: InsertContact) => {
-      const res = await apiRequest("POST", "/api/contact", data);
-      return res.json();
+      if (!formEndpoint) {
+        throw new Error(
+          "The enquiry form isn't connected yet. Please email support@laundryrentalbrisbane.com and we'll get straight back to you.",
+        );
+      }
+      const res = await fetch(formEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) {
+        const text = (await res.text()) || res.statusText;
+        throw new Error(`${res.status}: ${text}`);
+      }
+      return res.json().catch(() => ({}));
     },
     onSuccess: () => {
       setSubmitted(true);
